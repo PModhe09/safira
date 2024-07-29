@@ -5,7 +5,7 @@ interface CardProps {
   name?: string;
   address?: string;
   pincode?: string;
-  phone?: number;
+  phone?: number | string;
   imageUrl?: string;
 }
 
