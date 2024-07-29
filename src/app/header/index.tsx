@@ -18,8 +18,10 @@ export default function Header() {
       ];
   return (
     <div className='bg-green-500 flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-white'>
-      <Image src={logo} height={80} width={80} alt="website-logo" className='bg-white rounded-xl mr-3'/>
-      <h1 className='w-full text-3xl font-bold text-white'>Safira</h1>
+     <div className='bg-white rounded-full  flex items-center justify-center h-20 w-20 mr-4'>
+    <Image src={logo} height={100} width={100} alt="website-logo" className='rounded-full' />
+  </div>
+  <h1 className='w-full text-3xl font-bold text-white'>Safira</h1>
 
       {/* Desktop Navigation */}
       <ul className='hidden md:flex'>
