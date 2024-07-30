@@ -17,7 +17,7 @@ export default function Header() {
         { id: 2, text: 'About', link:'/about' },
       ];
   return (
-    <div className='bg-green-500 flex justify-between items-center h-24 max-w-[1240px] mx-auto text-white'>
+    <div className='bg-green-500 flex justify-between items-center h-24 max-w mx-auto text-white'>
   <div className='flex items-center justify-center h-20 w-20 ml-2 '>
     <Image src={logo} height={100} width={100} alt="website-logo" className='rounded-full' />
   </div>
