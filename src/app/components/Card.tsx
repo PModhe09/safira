@@ -15,7 +15,7 @@ const Card: React.FC<CardProps> = ({ name = "Unknown Hospital", address = "Unkno
   };
 
   return (
-    <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between p-4 border rounded shadow bg-white bg-opacity-80">
+    <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between p-4 border rounded-2xl shadow bg-green-500 bg-opacity-60">
       <div className="flex-1">
         <h3 className="text-xl font-bold mb-2">{name}</h3>
         <p className="mb-1">{address}</p>

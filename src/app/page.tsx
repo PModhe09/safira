@@ -68,16 +68,25 @@ export default function Home() {
       `}</style>
       <div className="overlay black-and-white"></div>
       <div className="content flex min-h-screen flex-col items-center justify-between p-4 md:p-24">
-        <div className="w-full sm:w-3/4 md:w-1/2 mt-10 md:mt-20 flex items-center gap-3">
-          <input
-            className="border-4 border-green-500 rounded-full p-3 text-black size-12 flex-grow w-full"
-            onChange={(e) => setSearchVal(e.target.value)}
-            placeholder="Click on search after filling in Pin-Code"
-          />
-          <FcSearch onClick={handleSearchClick} className="h-14 w-16 cursor-pointer" />
-          <div onClick={resetList} className="bg-green-500 hover:bg-blue-400 text-white p-2">Reset</div>
+        <div className="text-center mb-2 p-8 rounded-lg shadow-lg border bg-green-500 bg-opacity-60 border-green-400">
+          <h1 className="text-4xl font-bold text-white mb-4">Welcome to the Project RIGHT Health Tool</h1>
+          <p className="text-lg text-white max-w-xl mx-auto">
+            The <strong>Project RIGHT</strong> Health Tool is a user-friendly search engine that helps you find the nearest government hospitals and clinics by simply entering your postal code. This tool aims to improve access to healthcare services, making it easier for everyone to locate essential medical facilities in their area.
+          </p>
         </div>
-        <div className="overflow-auto h-96 w-full sm:w-3/4 md:w-full mt-2">
+        <div className="w-full sm:w-3/4 md:w-1/2 mt-10 md:mt-20 flex items-center gap-3">
+  <input
+    className="border-4 border-green-500 rounded-full p-3 font-bold text-black size-12 flex-grow w-full"
+    onChange={(e) => setSearchVal(e.target.value)}
+    placeholder="Click on search after filling in Pin-Code"
+  />
+  <FcSearch onClick={handleSearchClick} className="h-14 w-16 cursor-pointer mt-1" />
+  <div onClick={resetList} className="bg-green-500 hover:bg-blue-500 bg-opacity-60 text-white p-2">
+    Reset
+  </div>
+</div>
+
+        <div className="overflow-auto h-96 w-full sm:w-3/4 md:w-full mt-10">
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 items-center justify-between">
             {list.map((item) => (
               <div

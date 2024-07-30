@@ -23,7 +23,7 @@ export default function Header() {
   </div>
   <div className='text-center'>
     <h1 className='text-4xl font-bold text-white'>Project Right</h1>
-    <h2 className='text-xl text-white'>Health search tool</h2>
+    <h2 className='text-xl text-white'>Health Search Tool</h2>
   </div>
 
   {/* Desktop Navigation */}
