@@ -7,7 +7,7 @@ export default function Footer() {
     return (
         <div className='bg-green-500 text-white py-8'>
             <div className='container mx-auto flex flex-col items-center'>
-                <div className='flex flex-row items-center justify-center mb-4 space-x-4'>
+                <div className='flex flex-col md:flex-row items-center justify-center mb-4 space-y-4 md:space-y-0 md:space-x-8'>
                     <div className='flex items-center'>
                         <RiMoneyDollarCircleLine size={24} className='mr-2' />
                         <a href='https://milaap.org/fundraisers/support-members-of-the-mitr-trust/deeplink?deeplink_type=paytm' target='_blank' rel='noopener noreferrer' className='hover:text-gray-300'>
