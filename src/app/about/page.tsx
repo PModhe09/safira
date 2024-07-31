@@ -1,6 +1,6 @@
 'use client';
 import Image from 'next/image';
-import founder from '../../../public/founder.jpeg';
+import founder from '../../../public/founder.png';
 import { useState,useEffect } from 'react';
 
 export default function About() {

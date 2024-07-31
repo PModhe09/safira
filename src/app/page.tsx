@@ -69,7 +69,7 @@ export default function Home() {
       <div className="overlay black-and-white"></div>
       <div className="content flex min-h-screen flex-col items-center justify-between p-4 md:p-24">
         <div className="text-center mb-2 p-8 rounded-lg shadow-lg border bg-green-500 bg-opacity-60 border-green-400">
-          <h1 className="text-4xl font-bold text-white mb-4">Welcome to the Project RIGHT Health Tool</h1>
+          <h1 className="text-4xl font-bold text-white mb-4">Welcome to Project RIGHT Health Tool</h1>
           <p className="text-lg text-white max-w-xl mx-auto">
             The <strong>Project RIGHT</strong> Health Tool is a user-friendly search engine that helps you find the nearest government hospitals and clinics by simply entering your postal code. This tool aims to improve access to healthcare services, making it easier for everyone to locate essential medical facilities in their area.
           </p>
