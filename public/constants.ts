@@ -266,7 +266,7 @@ const wholeList = [
     name: "Batra Hospital",
     address: "1 Tughlabad Institutional Area, Mehrauli Badarpur Road",
     city: "New Delhi",
-    pincode: "62",
+    pincode: "100062",
     phone: "+91-11-26987485/86"
   },
   {
@@ -274,7 +274,7 @@ const wholeList = [
     name: "Dr. Ram Manohar Lohia Hospital",
     address: "Baba Kharak Singh Marg, Near Gole Dakkhana",
     city: "New Delhi",
-    pincode: "1",
+    pincode: "100001",
     phone: +91-11-23365525
   },
   {
@@ -306,7 +306,7 @@ const wholeList = [
     name: "New Delhi Medicos",
     address: "12-15, Old R.K. Ashram Marg, Gate No 6, Dr Ram Manohar Lohia Hospital",
     city: "Delhi",
-    pincode: "1",
+    pincode: "110001",
     phone: 1123347151
   },
   {
@@ -316,6 +316,458 @@ const wholeList = [
     city: "Delhi",
     pincode: "110051",
     phone: 11-22220141
+  },
+  {
+    id: 40,
+    name: "Safdrarganj Hospital",
+    address: "85/5, Shastri Park, Chander Nagar, Trans Yamuna",
+    city: "Delhi",
+    pincode: "110029",
+    phone: 11-26730000
+  },
+  {
+    id: 41,
+    name: "Red Cross Hospital",
+    address: "Red Cross Bhawan, Golf Links, New Delhi-110003",
+    city: "Delhi",
+    pincode: "110003",
+    phone: 11-43508575
+  },
+  {
+    id:42,
+    name:"Lala Ram Saroop T.B Hospital",
+    address:"Near Qutab Minar, Aurobindo Marg, Mehrauli",
+    city:"Delhi",
+    pincode:"110030",
+    phone:26854922,
+  },
+  {
+    id:43,
+    name:"Rajan Babu Institute of Pulmonary Medicine and Tuberculosis",
+    address:"Tagore Park Extension, GTB Nagar",
+    city:"Delhi",
+    pincode:"110009",
+    phone:27113493
+  },
+  {
+    id: 44,
+    name: "Mohalla Clinic D-7, khasra no. 34, Hardev Nagar village, Jharoda Majra (same as Constructed property of Sh. Gulab , wazirabad)-Rent Free",
+    address: "D-7, khasra no. 34, Hardev Nagar village, Jharoda Majra (same as Constructed property of Sh. Gulab , wazirabad)-Rent Free",
+    pincode: "110084",
+    phone: ""
+  },
+  {
+    id: 45,
+    name: "Mohalla Clinic Jharoda, Milan Vihar, Burari",
+    address: "Jharoda, Milan Vihar, Burari",
+    pincode: "110084",
+    phone: ""
+  },
+  {
+    id: 46,
+    name: "Mohalla Clinic Burari,Uttrakhand Enclave",
+    address: "Burari,Uttrakhand Enclave",
+    pincode: "110084",
+    phone: ""
+  },
+  {
+    id: 47,
+    name: "Mohalla Clinic DJB Site, Pradhan Enclave, Badarpur Majra",
+    address: "DJB Site, Pradhan Enclave, Badarpur Majra",
+    pincode: "110044",
+    phone: ""
+  },
+  {
+    id: 48,
+    name: "Mohalla Clinic Burari Jogi Chopal, Vijay Colony, Delhi",
+    address: "Burari Jogi Chopal, Vijay Colony, Delhi",
+    pincode: "110084",
+    phone: ""
+  },
+  {
+    id: 49,
+    name: "Mohalla Clinic Nathupura: - Budh Bazar Road, Nathupura, Burari, Delhi",
+    address: "Nathupura: - Budh Bazar Road, Nathupura, Burari, Delhi",
+    pincode: "110084",
+    phone: ""
+  },
+  {
+    id: 50,
+    name: "Mohalla Clinic AAMC, Amrit Vihar, Khasra No - 38/18 Burari, Block A, Delhi 84",
+    address: "AAMC, Amrit Vihar, Khasra No - 38/18 Burari, Block A, Delhi 84",
+    pincode: "110084",
+    phone: ""
+  },
+  {
+    id: 51,
+    name: "Mohalla Clinic AAMC Kaushik Enclave, H NO- 78, Gali No- 16, Burari, Delhi-84",
+    address: "AAMC Kaushik Enclave, H NO- 78, Gali No- 16, Burari, Delhi-84",
+    pincode: "110084",
+    phone: ""
+  },
+  {
+    id: 52,
+    name: "Mohalla Clinic AAMC Lakshmi Vihar, H NO- 71, Khasra No -417, Gali No- 6b, Burari",
+    address: "AAMC Lakshmi Vihar, H NO- 71, Khasra No -417, Gali No- 6b, Burari",
+    pincode: "110084",
+    phone: ""
+  },
+  {
+    id: 53,
+    name: "Mohalla Clinic AAMC Baba colony, Khasra No- 93/4, Gali No- 13, A Block Burari, Delhi",
+    address: "AAMC Baba colony, Khasra No- 93/4, Gali No- 13, A Block Burari, Delhi",
+    pincode: "110084",
+    phone: ""
+  },
+  {
+    id: 54,
+    name: "Mohalla Clinic AAMC Sant Nagar, H no- 2165, Block B, Gali no- 60b, Burari, Delhi-84",
+    address: "AAMC Sant Nagar, H no- 2165, Block B, Gali no- 60b, Burari, Delhi-84",
+    pincode: "110084",
+    phone: ""
+  },
+  {
+    id: 55,
+    name: "Mohalla Clinic Takia Chowk Chopal, Burari Village, Delhi(Rent free)",
+    address: "Takia Chowk Chopal, Burari Village, Delhi(Rent free)",
+    pincode: "110084",
+    phone: ""
+  },
+  {
+    id: 56,
+    name: "Mohalla Clinic Ram Ghat Wazirabad",
+    address: "Ram Ghat Wazirabad",
+    pincode: "110084",
+    phone: ""
+  },
+  {
+    id: 57,
+    name: "Mohalla Clinic Near PWD office, Awtar Singh Marg, Gopal Pur",
+    address: "Near PWD office, Awtar Singh Marg, Gopal Pur",
+    pincode: "110043",
+    phone: ""
+  },
+  {
+    id: 58,
+    name: "Mohalla Clinic DJB SE office Lucknow road",
+    address: "DJB SE office Lucknow road",
+    pincode: "110054",
+    phone: ""
+  },
+  {
+    id: 59,
+    name: "Mohalla Clinic Near crossing under sangam vihar flyover",
+    address: "Near crossing under sangam vihar flyover",
+    pincode: "110062",
+    phone: ""
+  },
+  {
+    id: 60,
+    name: "Mohalla Clinic DJB Site, A Block, Nehru Vihar, Mukherjee Nagar, Timarpur",
+    address: "DJB Site, A Block, Nehru Vihar, Mukherjee Nagar, Timarpur",
+    pincode: "110009",
+    phone: ""
+  },
+  {
+    id: 61,
+    name: "Mohalla Clinic AAMC Aruna Nagar E-28, Aruna Nagar, Majnu Ka Tila, Delhi",
+    address: "AAMC Aruna Nagar E-28, Aruna Nagar, Majnu Ka Tila, Delhi",
+    pincode: "110054",
+    phone: ""
+  },
+  {
+    id: 62,
+    name: "Mohalla Clinic Kabir Basti Malka Ganj (within premise of Raghushalla, Delhi)",
+    address: "Kabir Basti Malka Ganj (within premise of Raghushalla, Delhi)",
+    pincode: "110007",
+    phone: ""
+  },
+  {
+    id: 63,
+    name: "Mohalla Clinic AAMC Dr. Satijawali Gali, Malka Ganj, Delhi-110007",
+    address: "AAMC Dr. Satijawali Gali, Malka Ganj, Delhi-110007",
+    pincode: "110007",
+    phone: ""
+  },
+  {
+    id: 64,
+    name: "Mohalla Clinic AAMC Wazirabad Khasara No -120, Gali No-17, Main Road, Wazirabad, Delhi",
+    address: "AAMC Wazirabad Khasara No -120, Gali No-17, Main Road, Wazirabad, Delhi",
+    pincode: "110084",
+    phone: ""
+  },
+  {
+    id: 65,
+    name: "Mohalla Clinic AAMC Sindorakalan Opposite nav bharti school sindorakalan, Delhi",
+    address: "AAMC Sindorakalan Opposite nav bharti school sindorakalan, Delhi",
+    pincode: "110085",
+    phone: ""
+  },
+  {
+    id: 66,
+    name: "Mohalla Clinic AAMC Kamla Nagar, Oppsite Primary School Madavaliya School, Kamla Nagar, Delhi 07",
+    address: "AAMC Kamla Nagar, Oppsite Primary School Madavaliya School, Kamla Nagar, Delhi 07",
+    pincode: "110007",
+    phone: ""
+  },
+  {
+    id: 67,
+    name: "Mohalla Clinic BELOW METRO NEAR SAI MANDIR",
+    address: "BELOW METRO NEAR SAI MANDIR",
+    pincode: "110092",
+    phone: ""
+  },
+  {
+    id: 68,
+    name: "Mohalla Clinic Central Porta Cabin AAMC Yamuna Pushta Rain Basera Yamuna pusta AC-20",
+    address: "Chandni Chowk",
+    pincode: "110006",
+    phone: ""
+  },
+  {
+    id: 69,
+    name: "Mohalla Clinic Central Porta Cabin AAMC Hanuman Mandir Rain Basera, Hanuman Mandir, ISBT, Delhi.",
+    address: "Chandni Chowk",
+    pincode: "110006",
+    phone: ""
+  },
+  {
+    id: 70,
+    name: "Mohalla Clinic Central Porta Cabin Plot no. 10797/XV, Opp. Hari Mandir School.",
+    address: "Ballimaran",
+    pincode: "110006",
+    phone: ""
+  },
+  {
+    id: 71,
+    name: "Mohalla Clinic Central Porta Cabin Karol Bagh, DJB Office, Motia Khan, Karol Bagh.",
+    address: "Karol Bagh",
+    pincode: "110005",
+    phone: ""
+  },
+  {
+    id: 72,
+    name: "Mohalla Clinic Central Porta Cabin AAMC Aram Bagh Near Centeral Park Aaram Bagh Road, Delhi-05",
+    address: "Karol Bagh",
+    pincode: "110005",
+    phone: ""
+  },
+  {
+    id: 73,
+    name: "Mohalla Clinic Central Porta Cabin AAMC, Khalsa College, Karol Bagh",
+    address: "Karol Bagh",
+    pincode: "110005",
+    phone: ""
+  },
+  {
+    id: 74,
+    name: "Mohalla Clinic Central Porta Cabin AAMC Multani Dhanda Plot no.9857-59, gali no.5/6, Mutani Dhanda, Paharganj",
+    address: "Karol Bagh",
+    pincode: "110055",
+    phone: ""
+  },
+  {
+    id: 75,
+    name: "Mohalla Clinic Central Porta Cabin DJB Ramjas pani Tanki, Tank Road, Karol Bagh.",
+    address: "Karol Bagh",
+    pincode: "110005",
+    phone: ""
+  },
+  {
+    id: 76,
+    name: "Mohalla Clinic Central Porta Cabin Lala Hardev Sahay Marg, ISBT, Kashmere Gate.",
+    address: "Chandni Chowk",
+    pincode: "110006",
+    phone: ""
+  },
+  {
+    id: 77,
+    name: "Mohalla Clinic Central Govt Premises AAMC Tis Hazari",
+    address: "Chandni Chowk",
+    pincode: "110006",
+    phone: ""
+  },
+  {
+    id: 78,
+    name: "Mohalla Clinic Central DUSIB AAMC Multani Dhanda, Paharganj, Karol Bagh",
+    address: "Karol Bagh",
+    pincode: "110005",
+    phone: ""
+  },
+  {
+    id: 79,
+    name: "Mohalla Clinic Central DUSIB AAMC Community Hall, Block 6, Dev Nagar",
+    address: "Karol Bagh",
+    pincode: "110005",
+    phone: ""
+  },
+  {
+    id: 80,
+    name: "Mohalla Clinic Central Porta Cabin AAMC, NG Drain, near Mall Aptt",
+    address: "Timarpur",
+    pincode: "110054",
+    phone: ""
+  },
+  {
+    id: 81,
+    name: "Mohalla Clinic Central Porta Cabin AAMC, NG Drain, Indira Basti",
+    address: "Timarpur",
+    pincode: "110054",
+    phone: ""
+  },
+  {
+    id: 82,
+    name: "Mohalla Clinic Central DUSIB AAMC Shah Ganj, Lahori Gate",
+    address: "Matia Mahal",
+    pincode: "110006",
+    phone: ""
+  },
+  {
+    id: 83,
+    name: "Mohalla Clinic Central DUSIB AAMC Behind Delight Cinema",
+    address: "Matia Mahal",
+    pincode: "110006",
+    phone: ""
+  },
+  {
+    id: 84,
+    name: "Mohalla Clinic Central Rentfree AAMC Bhagirath Palace, Suraj Bhan",
+    address: "Chandni Chowk",
+    pincode: "110006",
+    phone: ""
+  },
+  {
+    id: 85,
+    name: "Mohalla Clinic Central DUSIB AAMC Rod Gran",
+    address: "Ballimaran",
+    pincode: "110006",
+    phone: ""
+  },
+  {
+    id: 86,
+    name: "Mohalla Clinic East Rental House no. 34, near Sai Mandir, Chilla Gaon",
+    address: "Trilokpuri",
+    pincode: "110091",
+    phone: ""
+  },
+  {
+    id: 87,
+    name: "Mohalla Clinic East Porta Cabin AAMC Trilokpuri 12 Block- H.No.12/169-170",
+    address: "Trilokpuri",
+    pincode: "110091",
+    phone: ""
+  },
+  {
+    id: 88,
+    name: "Mohalla Clinic East Porta Cabin Block No-2, JJ Camp",
+    address: "Trilokpuri",
+    pincode: "110091",
+    phone: ""
+  },
+  {
+    id: 89,
+    name: "Mohalla Clinic East Porta Cabin Block No-9 vacant and abandoned space",
+    address: "Trilokpuri",
+    pincode: "110091",
+    phone: ""
+  },
+  {
+    id: 90,
+    name: "Mohalla Clinic East Porta Cabin Block no. 35, Near DSIDC Market",
+    address: "Trilokpuri",
+    pincode: "110091",
+    phone: ""
+  },
+  {
+    id: 91,
+    name: "Mohalla Clinic East Porta Cabin Block No-25 near Sant Nirnkari Samagam Bhawan",
+    address: "Trilokpuri",
+    pincode: "110091",
+    phone: ""
+  },
+  {
+    id: 92,
+    name: "Mohalla Clinic East Porta Cabin Block No-25 near Sant Nirnkari Samagam Bhawan",
+    address: "Trilokpuri",
+    pincode: "110091",
+    phone: ""
+  },
+  {
+    id: 93,
+    name: "Mohalla Clinic East Porta Cabin AAMC Vasundhara Enclave: in front on Persona Elite Gym",
+    address: "Kondli",
+    pincode: "110096",
+    phone: ""
+  },
+  {
+    id: 94,
+    name: "Mohalla Clinic East Rental AAMC Pratap Chowk: Pratap Chowk, Dallupura",
+    address: "Kondli",
+    pincode: "110096",
+    phone: ""
+  },
+  {
+    id: 95,
+    name: "Mohalla Clinic East Porta Cabin DDA Flats Gazipur",
+    address: "Kondli",
+    pincode: "110096",
+    phone: ""
+  },
+  {
+    id: 96,
+    name: "Mohalla Clinic East Porta Cabin AAMC Kondli Gharoli: Kondli Gharoli Dairy Farm",
+    address: "Kondli",
+    pincode: "110096",
+    phone: ""
+  },
+  {
+    id: 97,
+    name: "Mohalla Clinic East Porta Cabin AAMC Khichripur: Block 5",
+    address: "Khichripur",
+    pincode: "110091",
+    phone: ""
+  },
+  {
+    id: 98,
+    name: "Mohalla Clinic East Porta Cabin AAMC Kalyanpuri: Block no. 19",
+    address: "Kalyanpuri",
+    pincode: "110091",
+    phone: ""
+  },
+  {
+    id: 99,
+    name: "Mohalla Clinic East Porta Cabin AAMC Prachin Shiv Mandir, Mayur Vihar phase-3, Pragati Marg Near Bharti Public School",
+    address: "Kondli",
+    pincode: "110096",
+    phone: ""
+  },
+  {
+    id: 100,
+    name: "Mohalla Clinic East Rental AAMC Dallupura: Near Samuday Bhawan, Harijan Basti Dallupura Village",
+    address: "Kondli",
+    pincode: "110096",
+    phone: ""
+  },
+  {
+    id: 101,
+    name: "Mohalla Clinic East Porta Cabin DJB Site, B.D Block Mayur Vihar Phase-II",
+    address: "Patparganj",
+    pincode: "110092",
+    phone: ""
+  },
+  {
+    id: 102,
+    name: "Mohalla Clinic East Rental AAMC West Vinod Nagar: D-55 Gali no. 11",
+    address: "Patparganj",
+    pincode: "110092",
+    phone: ""
+  },
+  {
+    id: 103,
+    name: "Mohalla Clinic East Porta Cabin PWD site, Road footpath site at Chander Vihar",
+    address: "Mandawali",
+    pincode: "110092",
+    phone: ""
   },
 ];
 

@@ -5,7 +5,13 @@ import wholeList from "../../public/constants";
 import Card from "./components/Card";
 
 export default function Home() {
-  const [list, setList] = useState(wholeList);
+  const sortedList = wholeList.slice().sort((a, b) => {
+    const pincodeA = a.pincode ? parseInt(a.pincode, 10) : Infinity;
+    const pincodeB = b.pincode ? parseInt(b.pincode, 10) : Infinity;
+    
+    return pincodeA - pincodeB;
+  });
+  const [list, setList] = useState(sortedList);
   const [searchVal, setSearchVal] = useState("");
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
@@ -37,7 +43,14 @@ export default function Home() {
   }
 
   function resetList() {
-    setList(wholeList);
+    const sortedList = wholeList.slice().sort((a, b) => {
+      // Convert pincode to numbers, handle empty strings by converting them to Infinity
+      const pincodeA = a.pincode ? parseInt(a.pincode, 10) : Infinity;
+      const pincodeB = b.pincode ? parseInt(b.pincode, 10) : Infinity;
+      
+      return pincodeA - pincodeB;
+    });
+    setList(sortedList);
   }
 
   return (
