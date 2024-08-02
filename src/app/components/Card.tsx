@@ -9,9 +9,15 @@ interface CardProps {
   imageUrl?: string;
 }
 
-const Card: React.FC<CardProps> = ({ name = "Unknown Hospital", address = "Unknown Address", pincode, phone, imageUrl }) => {
+const Card: React.FC<CardProps> = ({ 
+  name = "Unknown Hospital", 
+  address = "Unknown Address", 
+  pincode, 
+  phone, 
+  imageUrl 
+}) => {
   const getDirectionsUrl = (name: string, address: string) => {
-    return `https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(name + address)}`;
+    return `https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(name+address)}`;
   };
 
   return (
@@ -20,13 +26,26 @@ const Card: React.FC<CardProps> = ({ name = "Unknown Hospital", address = "Unkno
         <h3 className="text-xl font-bold mb-2">{name}</h3>
         <p className="mb-1">{address}</p>
         <p className="mb-1">Pincode: {pincode}</p>
-        <p className="mb-1">Phone: {phone}</p>
+        {phone && <p className="mb-1">Phone: {phone}</p>}
       </div>
       <div className="flex flex-col items-center mt-4 sm:mt-0 sm:ml-4">
         <div className="w-full sm:w-40 h-auto relative">
-          <img src={imageUrl} alt={name} className="object-cover rounded w-full h-auto" />
+          {imageUrl && (
+            <Image
+              src={imageUrl}
+              alt={name}
+              layout="fill"
+              objectFit="cover"
+              className="rounded"
+            />
+          )}
         </div>
-        <button onClick={() => window.open(getDirectionsUrl(name, address), '_blank')} className="bg-blue-500 text-white px-4 py-2 rounded mt-2 sm:mt-4 w-full sm:w-auto">Get Directions</button>
+        <button 
+          onClick={() => window.open(getDirectionsUrl(name, address), '_blank')} 
+          className="bg-blue-500 text-white px-4 py-2 rounded mt-2 sm:mt-4 w-full sm:w-auto"
+        >
+          Get Directions
+        </button>
       </div>
     </div>
   );
