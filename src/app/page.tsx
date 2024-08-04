@@ -87,7 +87,8 @@ export default function Home() {
             The <strong>Project RIGHT</strong> Health Tool is a user-friendly search engine that helps you find the nearest government hospitals and clinics by simply entering your postal code. This tool aims to improve access to healthcare services, making it easier for everyone to locate essential medical facilities in their area.
           </p>
         </div>
-        <div className="w-full sm:w-3/4 md:w-1/2 mt-10 md:mt-20 flex items-center gap-3">
+        <div className="text-4xl font-bold text-white rounded-lg p-3 shadow-lg border bg-green-500 bg-opacity-60 border-green-400">All India Database</div>
+        <div className="w-full sm:w-3/4 md:w-1/2 mt-5 md:mt-20 flex items-center gap-3">
   <input
     className="border-4 border-green-500 rounded-full p-3 font-bold text-black size-12 flex-grow w-full"
     onChange={(e) => setSearchVal(e.target.value)}

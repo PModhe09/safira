@@ -24,9 +24,11 @@ const Card: React.FC<CardProps> = ({
     <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between p-4 border rounded-2xl shadow bg-green-500 bg-opacity-60">
       <div className="flex-1">
         <h3 className="text-xl font-bold mb-2">{name}</h3>
-        <p className="mb-1">{address}</p>
-        <p className="mb-1">Pincode: {pincode}</p>
-        {phone && <p className="mb-1">Phone: {phone}</p>}
+        { address && <p className="mb-1">{address}</p>}
+        {pincode && pincode !== '0' && (
+  <p className="mb-1">Pincode: {pincode}</p>
+)}
+        {phone && phone!==0 && phone!=='0' && <p className="mb-1">Phone: {phone}</p>}
       </div>
       <div className="flex flex-col items-center mt-4 sm:mt-0 sm:ml-4">
         <div className="w-full sm:w-40 h-auto relative">
