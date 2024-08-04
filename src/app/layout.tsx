@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "PR Health-Tool",
-  description: "{roject Right Health Tool, To discover nearby goverment medical facilities with help of pincode.",
+  description: "Project Right Health Tool, to discover nearby government medical facilities with the help of a pincode.",
 };
 
 export default function RootLayout({
@@ -18,10 +18,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+      </head>
       <body className={inter.className}>
-         <Header/>
+        <Header />
         {children}
-        <Footer/>
+        <Footer />
       </body>
     </html>
   );
