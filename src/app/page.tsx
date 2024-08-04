@@ -1,6 +1,5 @@
 'use client'
 import { useState, useEffect } from "react";
-import { FcSearch } from "react-icons/fc";
 import wholeList from "../../public/constants";
 import Card from "./components/Card";
 
@@ -37,32 +36,46 @@ export default function Home() {
   }, [images.length]);
 
   useEffect(() => {
-    const sortedList = (wholeList as DataItem[]).slice().sort((a, b) => {
-      const pincodeA = a.pincode ? parseInt(a.pincode, 10) : Infinity;
-      const pincodeB = b.pincode ? parseInt(b.pincode, 10) : Infinity;
-      return pincodeA - pincodeB;
-    });
+    const sortedList = (wholeList as DataItem[])
+      .slice()
+      .sort((a, b) => {
+        const pincodeA = a.pincode ? parseInt(a.pincode, 10) : Infinity;
+        const pincodeB = b.pincode ? parseInt(b.pincode, 10) : Infinity;
+        return pincodeA - pincodeB;
+      });
     setList(sortedList);
   }, []);
 
-  function handleSearchClick() {
+  useEffect(() => {
     if (searchVal === "") {
-      setList(wholeList as DataItem[]);
+      const sortedList = (wholeList as DataItem[])
+        .slice()
+        .sort((a, b) => {
+          const pincodeA = a.pincode ? parseInt(a.pincode, 10) : Infinity;
+          const pincodeB = b.pincode ? parseInt(b.pincode, 10) : Infinity;
+          return pincodeA - pincodeB;
+        });
+      setList(sortedList);
       return;
     }
-    const filterBySearch = (wholeList as DataItem[]).filter((item) =>
-      item.pincode.toLowerCase().includes(searchVal.toLowerCase())
-    );
+    const filterBySearch = (wholeList as DataItem[])
+      .filter((item) =>
+        item.name.toLowerCase().includes(searchVal.toLowerCase()) ||
+        item.address.toLowerCase().includes(searchVal.toLowerCase()) ||
+        item.pincode.toLowerCase().includes(searchVal.toLowerCase())
+      );
     setList(filterBySearch);
     setCurrentPage(1); // Reset to first page on search
-  }
+  }, [searchVal]);
 
   function resetList() {
-    const sortedList = (wholeList as DataItem[]).slice().sort((a, b) => {
-      const pincodeA = a.pincode ? parseInt(a.pincode, 10) : Infinity;
-      const pincodeB = b.pincode ? parseInt(b.pincode, 10) : Infinity;
-      return pincodeA - pincodeB;
-    });
+    const sortedList = (wholeList as DataItem[])
+      .slice()
+      .sort((a, b) => {
+        const pincodeA = a.pincode ? parseInt(a.pincode, 10) : Infinity;
+        const pincodeB = b.pincode ? parseInt(b.pincode, 10) : Infinity;
+        return pincodeA - pincodeB;
+      });
     setList(sortedList);
     setCurrentPage(1); // Reset to first page on reset
   }
@@ -114,9 +127,8 @@ export default function Home() {
           <input
             className="border-4 border-green-500 rounded-full p-3 font-bold text-black size-12 flex-grow w-full"
             onChange={(e) => setSearchVal(e.target.value)}
-            placeholder="Click on search after filling in Pin-Code"
+            placeholder="Search by name, address, or pin code"
           />
-          <FcSearch onClick={handleSearchClick} className="h-14 w-16 cursor-pointer mt-1" />
           <div onClick={resetList} className="bg-green-500 hover:bg-blue-500 bg-opacity-60 text-white p-2">
             Reset
           </div>
